@@ -1,0 +1,84 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+
+<form .bg-dark .bg-gradient>
+    <div class="mb-3">
+        <input type="text" class="form-control" id="InputInfo" placeholder="Informação do membro">
+    </div>
+    <label for="InputNome" class="form-label ">Nome completo</label>
+    <div class="mb-3 row">
+        <div class="col">
+            <input type="text" class="form-control" id="InputPNome" placeholder="Primeiro nome">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="InputSNome" placeholder="Segundo nome">
+        </div>
+    </div>
+    <div class="mb-3 ">
+        <label class="form-check-label" for="exampleCheck1">Qual é o seu endereço?</label>
+        <input class="form-control" id="endereco" type="text" placeholder="Endereço" />
+        <input class="form-control" id="endereco2" type="text" placeholder="Endereço linha 2" />
+        <div class="mb-3 row ml-1">
+            <input class="form-control col" id="enderecocid" type="text" placeholder="Cidade" />
+            <input class="form-control col" id="enderecoest" type="text" placeholder="Endereço est" />
+            <input class="form-control col" id="enderecocodpostal" type="number" placeholder="Código postal" />
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    País
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Brasil</a>
+                    <a class="dropdown-item" href="#">França</a>
+                    <a class="dropdown-item" href="#">Japão</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-3 ">
+        <label for="telNumber">Número de telefone</label>
+        <input type="tel" class="form-control" id="telNumber">
+    </div>
+
+    <div class="mb-3 ">
+        <label for="email">Endereço de Email</label>
+        <input type="number" class="form-control" id="email">
+    </div>
+
+    <div class="mb-3 ">
+        <input type="text" class="form-control" id="filiacao" placeholder="Selecione seu nível de filiação">
+    </div>
+
+    <div class="mb-3 ">
+        <label for="email">Membro Vitalício</label>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membVita" aria-label="Individual"> Individual
+
+        </div>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membVita" aria-label="Família"> Família
+
+        </div>
+    </div>
+
+    <div class="mb-3 ">
+        <label for="email">Membro anual</label>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membAnual" aria-label=" ">  Individual
+        </div>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membAnual" aria-label=" ">  Família
+        </div>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membAnual" aria-label=" ">  Anula
+        </div>
+        <div class="form-control">
+            <input type="checkbox" class="form-check-inline" id="membAnual" aria-label=" ">  Educador
+        </div>
+    </div>
+
+    <div class="text-right">
+    <button type="submit" class="btn btn-danger">Submit</button>
+
+    </div>
+
+</form>
